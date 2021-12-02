@@ -1,0 +1,44 @@
+.header {
+    font-family:"Palatino Linotype", serif;
+    color: #2e2e2e; 
+    text-align: left;
+    font-weight: 50;
+    font-size: 50px;
+    margin-left: 400px;
+    padding: 30px 400px 30px 50px;
+    background-color:#608fb7;
+}
+
+.main_text {
+    font-family:"Palatino Linotype", serif;
+    color:snow;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.my_name {
+    margin-top: 30px;
+    font-family: "Palatino Linotype", serif;
+    color:#3f3f3f;
+    font-size: 30;
+    margin-left: 400px;
+    padding: 30px 400px 30px 50px;
+    background-color:#aec5d8;
+}
+
+.name {
+    color:#2e2e2e;
+    font-size: 40;
+    font-weight: 500;
+    margin: 5px;
+    margin-left: 0;
+    padding: 5px 90px 10px 0;
+    background-color:#608fb7;
+}
+
+img {
+    background-color: #aec5d8;
+    border-radius: 150px;
+}
+
