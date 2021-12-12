@@ -1,0 +1,48 @@
+body
+{
+background-color: lightsteelblue;
+background-image: url(src/bgpic.jpg);
+/*background-position: 40px, 40px;*/
+background-repeat: repeat-x;
+}
+
+p
+{
+    font: 14pt "Times Cyr", serif;
+    text-indent: 20;
+    line-height: 1.5;
+}
+
+h1
+{
+    color: rgb(151, 14, 14);
+}
+
+h2
+{
+    color: rgba(8, 8, 145, 0.774);
+    letter-spacing: 20px;
+}
+
+hr
+{
+    background-color: rgb(16, 16, 63);
+    height: 1px;
+}
+
+ul
+{
+    font-family: "Times Cyr", serif;
+    font-size: larger;
+    line-height: 2;
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li
+{
+    margin: 0;
+    padding: 0;
+}

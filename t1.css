@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(80, 97, 122);
+    font-size: xx-large;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.pink {
+font-family: 'Courier New', Courier, monospace;
+color:pink;
+}
+
+#grey {
+font-family: serif;
+color:rgb(75, 75, 75);
+}
