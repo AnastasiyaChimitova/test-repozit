@@ -1,0 +1,26 @@
+#geom1
+{
+    margin: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blueviolet;
+    padding: 100 0 0 1000;
+}
+
+#geom2
+{
+    margin: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(248, 67, 167);
+    padding: 200 400 70 600;
+}
+
+#geom3
+{
+    margin: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(248, 213, 13);
+    padding: 300 600 0 400;
+}
