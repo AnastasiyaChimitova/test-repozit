@@ -1,9 +1,9 @@
 body
 {
 background-color: lightsteelblue;
-background-image: url(src/bgpic.jpg);
+background-image: url(bgpic.jpg);
 /*background-position: 40px, 40px;*/
-background-repeat: repeat-x;
+background-repeat: repeat-y;
 }
 
 p
@@ -37,13 +37,5 @@ ul
     font-size: larger;
     line-height: 2;
     list-style: circle;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-li
-{
-    margin: 0;
-    padding: 0;
+    display: inline;
 }
