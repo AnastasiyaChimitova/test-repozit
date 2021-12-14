@@ -37,5 +37,6 @@ ul
     font-size: larger;
     line-height: 2;
     list-style: circle;
-    display: inline;
+    width: 60%;
+    margin-right: 0;
 }
