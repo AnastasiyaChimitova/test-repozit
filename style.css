@@ -13,7 +13,7 @@
 
 .main_text {
     font-family:"Palatino Linotype", serif;
-    color:#2e2e2e;
+    color:#dededf;
     text-align: left;
     font-size: 30px;
     margin-left: 350px;
@@ -35,7 +35,7 @@ img {
 {
     height: 100%;
     width: 350;
-    background: linear-gradient(to right,rgb(214, 214, 214) 95%, #9e9e9e);
+    background: linear-gradient(to right,rgb(77, 77, 77) 95%, #3b3b3b);
     margin: 0;
     position: fixed;
     font-family:"Palatino Linotype", serif;
@@ -52,30 +52,48 @@ a
 .a:active
 {
     font-family:"Palatino Linotype", serif;
-    color:#2e2e2e;
+    color:#ffffff;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 10px;
-    background-color: #e4e4ff;
     padding: 10 100 15 40;
 }
 
 .a:visited
 {
     font-family:"Palatino Linotype", serif;
-    color:#2e2e2e;
+    color:#dededf;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .a:hover
 {
     font-family:"Palatino Linotype", serif;
-    color:#2e2e2e;
+    color:#ffffff;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 10px;
-    background-color: #e4e4ff;
     padding: 10 100 15 41;
+}
+
+.a:link
+{
+    font-family:"Palatino Linotype", serif;
+    color:#dededf;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.a:checked
+{
+    font-family:"Palatino Linotype", serif;
+    color:#ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10 100 15 40;
 }
