@@ -1,44 +1,81 @@
 .header {
+    
     font-family:"Palatino Linotype", serif;
-    color: #2e2e2e; 
+    color: #313131; 
     text-align: left;
     font-weight: 50;
     font-size: 50px;
-    margin-left: 400px;
+    margin-left: 350px;
     padding: 30px 400px 30px 50px;
-    background-color:#608fb7;
+    background: linear-gradient(to bottom right,#8fa4ff, #d9ccff);
+    position: sticky;
 }
 
 .main_text {
     font-family:"Palatino Linotype", serif;
-    color:snow;
-    text-align: left;
-    font-size: 20px;
-
-}
-
-.my_name {
-    margin-top: 30px;
-    font-family: "Palatino Linotype", serif;
-    color:#3f3f3f;
-    font-size: 30;
-    margin-left: 400px;
-    padding: 30px 400px 30px 50px;
-    background-color:#aec5d8;
-}
-
-.name {
     color:#2e2e2e;
-    font-size: 40;
-    font-weight: 500;
-    margin: 5px;
-    margin-left: 0;
-    padding: 5px 90px 10px 0;
-    background-color:#608fb7;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 350px;
+    padding-left: 50;
+}
+
+ul
+{
+    list-style-type: circle;
 }
 
 img {
-    background-color: #aec5d8;
+    background: linear-gradient(to bottom right,#b2bdf5dc, #e0d7fdd8);
     border-radius: 150px;
+    margin-bottom: 40;
 }
 
+#menu 
+{
+    height: 100%;
+    width: 350;
+    background: linear-gradient(to right,rgb(214, 214, 214) 95%, #9e9e9e);
+    margin: 0;
+    position: fixed;
+    font-family:"Palatino Linotype", serif;
+    color:#2e2e2e;
+    text-align: left;
+    font-size: 30px;
+}
+
+a
+{
+    margin-left: 10px;
+}
+
+.a:active
+{
+    font-family:"Palatino Linotype", serif;
+    color:#2e2e2e;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: #e4e4ff;
+    padding: 10 100 15 40;
+}
+
+.a:visited
+{
+    font-family:"Palatino Linotype", serif;
+    color:#2e2e2e;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.a:hover
+{
+    font-family:"Palatino Linotype", serif;
+    color:#2e2e2e;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: #e4e4ff;
+    padding: 10 100 15 40;
+}
