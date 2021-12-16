@@ -7,39 +7,51 @@
     font-size: 50px;
     margin-left: 350px;
     padding: 30px 400px 30px 50px;
-    background: linear-gradient(to bottom right,#8fa4ff, #d9ccff);
+    background: linear-gradient(to bottom right,#9caeff 35%, #c3aeff, #cebeff);
     position: sticky;
 }
 
 .main_text {
     font-family:"Palatino Linotype", serif;
-    color:#dededf;
+    color:#ececec;
     text-align: left;
     font-size: 30px;
     margin-left: 350px;
     padding-left: 50;
+    line-height: 1.5;
 }
 
-ul
+b
+{
+    color: #ffffff;
+}
+
+ul li
 {
     list-style-type: circle;
+    line-height: 2;
 }
 
-img {
-    background: linear-gradient(to bottom right,#b2bdf5dc, #e0d7fdd8);
+#me {
+    background: linear-gradient(to bottom right,#b8c4fcdc, #e0d7fdd8);
     border-radius: 150px;
     margin-bottom: 40;
+}
+
+p
+{
+    margin-bottom: 30;
 }
 
 #menu 
 {
     height: 100%;
     width: 350;
-    background: linear-gradient(to right,rgb(77, 77, 77) 95%, #3b3b3b);
+    background: linear-gradient(to right,rgb(172, 172, 172) 95%, #838383);
     margin: 0;
     position: fixed;
     font-family:"Palatino Linotype", serif;
-    color:#2e2e2e;
+    color:#c4c4c4;
     text-align: left;
     font-size: 30px;
 }
@@ -54,17 +66,18 @@ a
     font-family:"Palatino Linotype", serif;
     color:#ffffff;
     text-align: left;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 10px;
-    padding: 10 100 15 40;
+    padding: 10 20 15 40;
+    font-weight: bolder;
 }
 
 .a:visited
 {
     font-family:"Palatino Linotype", serif;
-    color:#dededf;
+    color:#1f1729;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10px;
 }
 
@@ -73,17 +86,18 @@ a
     font-family:"Palatino Linotype", serif;
     color:#ffffff;
     text-align: left;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 10px;
-    padding: 10 100 15 41;
+    padding: 10 20 15 41;
+    font-weight: bolds;
 }
 
 .a:link
 {
     font-family:"Palatino Linotype", serif;
-    color:#dededf;
+    color:#1f1729;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10px;
 }
 
@@ -91,9 +105,59 @@ a
 .a:checked
 {
     font-family:"Palatino Linotype", serif;
-    color:#ffffff;
+    color:#1f1729;
     text-align: left;
-    font-size: 20px;
+    font-size: 60px;
     margin-left: 10px;
     padding: 10 100 15 40;
+}
+
+#email
+{
+    position: absolute;
+}
+
+#email_text
+{
+    position: absolute;
+    top: 1570;
+    left: 500;
+    padding-bottom: 0;
+    font-size: inherit;
+    color: inherit;
+}
+
+#phone
+{
+    position: absolute;
+    left: 400;
+    margin-top: 80;
+}
+
+#phone_text
+{
+    position: absolute;
+    top: 1700;
+    left: 500;
+    padding-bottom: 0;
+    font-size: inherit;
+    color: inherit;
+}
+
+#inst
+{
+    position: static;
+    left: 400;
+    margin-top: 180;
+    margin-bottom: 80;
+}
+
+#inst_text
+{
+    position: absolute;
+    top: 1840;
+    left: 500;
+    padding-bottom: 0;
+    font-size: inherit;
+    color: inherit;
 }
