@@ -32,6 +32,11 @@
     },
     "link": {
       "type": "string"
+    },
+    "work_type": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-type.work-type"
     }
   }
 }
